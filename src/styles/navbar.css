@@ -1,0 +1,44 @@
+/* src/styles/navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 15px 25px;
+    height: 70px;
+  }
+  
+  .navbar-left h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .nav-btn {
+    background-color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+  }
